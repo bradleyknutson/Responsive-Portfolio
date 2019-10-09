@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(../images/pixel_weave/pixel_weave.png);
     font-family: Arial, Helvetica, sans-serif;
@@ -137,4 +141,52 @@ form input {
 
 .right {
     float: right;
+}
+
+@media screen and (max-width: 980px){
+    #name {
+        font-size: 1.7em;
+        width: 40%;
+    }
+
+    .headerContent {
+        width: 800px;
+    }
+
+    section {
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    #name {
+        font-size: 1.7em;
+        width: 40%;
+    }
+
+    .headerContent {
+        width: 660px;
+    }
+
+    section {
+        width: 660px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #name {
+        font-size: 1.65em;
+        width: 40%;
+    }
+    
+    .headerContent {
+        width: 600px;
+    }
+
+    section {
+        width: 600px;
+    }
+
 }
