@@ -143,6 +143,11 @@ form input {
     float: right;
 }
 
+#headshot {
+    height: 400px; 
+    width: 400px;
+}
+
 @media screen and (max-width: 980px){
     #name {
         font-size: 1.7em;
@@ -204,6 +209,11 @@ form input {
 
     .content {
         min-height: calc(100vh - 220px);
+    }
+
+    #headshot {
+        width: 550px;
+        height: 550px;
     }
 
 }
