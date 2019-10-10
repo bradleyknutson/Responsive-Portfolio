@@ -162,6 +162,20 @@ form input {
         width: 800px;
     }
 
+    #portfolio div {
+        height: 160px;
+        width: 320px;
+    }
+
+    #portfolio div img {
+        height: 160px;
+        width: 320px;
+    }
+
+    .content {
+        min-height: calc(100vh - 159px);
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -176,6 +190,16 @@ form input {
 
     section {
         width: 660px;
+    }
+
+    #portfolio div {
+        height: 140px;
+        width: 280px;
+    }
+
+    #portfolio div img {
+        height: 140px;
+        width: 280px;
     }
 
 }
@@ -214,6 +238,24 @@ form input {
     #headshot {
         width: 550px;
         height: 550px;
+    }
+
+    #portfolio div {
+        height: 280px;
+        width: 560px;
+    }
+
+    #portfolio div img {
+        height: 280px;
+        width: 560px;
+    }
+
+    .right {
+        float: none;
+    }
+
+    .left {
+        float: none;
     }
 
 }
