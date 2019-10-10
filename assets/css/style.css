@@ -177,16 +177,29 @@ form input {
 
 @media screen and (max-width: 640px) {
     #name {
-        font-size: 1.65em;
-        width: 40%;
+        font-size: 1.7em;
+        width: 100%;
     }
     
     .headerContent {
-        width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        margin: 0 auto;
+        float: none;
+        margin: 0 auto;
+        padding-top: 20px;
+        clear: both;
+    }
+
+    nav a {
+        
     }
 
     section {
-        width: 600px;
+        width: 100%;
     }
 
 }
